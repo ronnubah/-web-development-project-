@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Satisfy&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Satisfy&family=Teko:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #222846;
+    font-family: "bebas neue";
+}
+
+li, a {
+    font-family: "bebas neue", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: auto;
+    width: 100px;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-items li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-items li a:hover {
+    color: #f9004d;
+}
+
+.home {
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.home img{
+    height: auto;
+    width: 200px;
+}
+
+.text-container {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-container h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.text-container h5 {
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 10px;
+}
+
+.text-container p{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-family: "teko", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 30px;
+}
+
+.contact-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0,5);
+    border-radius: 15px;
+    background: hsl(341, 100%, 55%, 0.2);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.contact-container form h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    background: hsl(341, 100%, 55%, 0.2);
+}
+
+.contact-container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-family: "teko", sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #f9004d;
+    color: #fff;
+}
+
+.contact-container form input::placeholder{
+    color: #fff;
+    font-family: "bebas neue";;
+}
+
+.contact-container form #lastname,
+.contact-container form #phonenumber{
+    margin-left: 20px;
+}
+
+.contact-container form h4{
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+    background-color: hsl(341, 100%, 55%, 0.2);
+}
+
+.contact-container form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #f9004d;
+    color: #fff;
+    font-family: "teko", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.contact-container form #button{
+    border: none;
+    background: #f9004d;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.contact-container form #button:hover{
+    opacity: 0.5;
+}
