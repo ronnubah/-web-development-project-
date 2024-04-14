@@ -59,12 +59,12 @@ header {
     width: 200px;
 }
 
-/* Text container styles */
+
 .text-container {
     width: 550px;
 }
 
-/* Main container styles */
+
 .main {
     width: 1130px;
     max-width: 95%;
@@ -74,7 +74,7 @@ header {
     justify-content: space-around;
 }
 
-/* Header styles */
+
 .text-container h1, 
 .text-container h5 {
     color: white;
@@ -83,27 +83,27 @@ header {
 }
 
 .text-container h1 {
-    font-size: 5em; /* Equivalent to 80px */
+    font-size: 5em;
     margin-bottom: 20px;
 }
 
 .text-container h5 {
-    font-size: 3em; /* Equivalent to 40px */
+    font-size: 3em; 
     margin-bottom: 25px;
 }
 
-/* Paragraph styles */
+
 .text-container p {
     background: #f9004d;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
     font-family: "teko", sans-serif;
-    font-size: 1.25em; /* Equivalent to 20px */
+    font-size: 1.25em; 
     font-weight: bold;
     padding: 13px 30px;
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .contact-container {
@@ -121,17 +121,17 @@ header {
     flex-direction: column;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    background: #f9004d; /* Set contact form background color */
+    background: #f9004d; 
 }
 
 .contact-container form h1 {
-    color: #fff; /* Set text color */
+    color: #fff; 
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
-    background: #f9004d; /* Match background color */
-    padding: 10px 0; /* Add padding for better spacing */
-    border-radius: 5px; /* Add border-radius for better appearance */
+    background: #f9004d; 
+    padding: 10px 0; 
+    border-radius: 5px; 
 }
 
 .contact-container form input,
@@ -144,41 +144,41 @@ header {
     border: none;
     border-radius: 5px;
     background: #f9f9f9;
-    color: #000; /* Change text color */
+    color: #000; 
     border-bottom: 1px solid #ccc;
 }
 
 .contact-container form textarea {
     min-height: 100px;
     resize: vertical;
-    background: #f9f9f9; /* Set textarea background color */
+    background: #f9f9f9; 
 }
 
 .contact-container form textarea::placeholder {
-    color: #000; /* Change placeholder text color */
-    opacity: 0.7; /* Adjust placeholder opacity */
-    padding: 10px; /* Add padding to placeholder */
+    color: #000;
+    opacity: 0.7; 
+    padding: 10px; 
 }
 
 .contact-container form h4 {
-    color: #fff; /* Set text color */
+    color: #fff;
     font-weight: 300;
     width: 600px;
     margin-top: 20px;
-    background-color: #f9004d; /* Set background color for h4 */
-    padding: 10px; /* Add padding for better spacing */
-    text-align: center; /* Center align the text */
-    border-radius: 5px; /* Add border-radius for better appearance */
+    background-color: #f9004d;
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 5px; 
 }
 
 .contact-container form #button {
-    border: 2px solid #fff; /* Add visible border */
-    background: #f9004d; /* Set button background color */
+    border: 2px solid #fff; 
+    background: #f9004d; 
     border-radius: 5px;
     font-weight: 600;
-    font-size: 15px; /* Decrease font size */
+    font-size: 15px; 
     color: #fff;
-    padding: 6px 12px; /* Adjust padding for smaller size */
+    padding: 6px 12px; 
     cursor: pointer;
     transition: 0.3s;
     max-width: 150px;
