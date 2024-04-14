@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Satisfy&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Satisfy&family=Teko:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #222846;
+    font-family: "bebas neue";
+}
+
+li, a {
+    font-family: "bebas neue", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: auto;
+    width: 100px;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-items li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-items li a:hover {
+    color: #f9004d;
+}
+
+.home {
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.home img{
+    height: auto;
+    width: 200px;
+}
+
+/* Text container styles */
+.text-container {
+    width: 550px;
+}
+
+/* Main container styles */
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Header styles */
+.text-container h1, 
+.text-container h5 {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+
+.text-container h1 {
+    font-size: 5em; /* Equivalent to 80px */
+    margin-bottom: 20px;
+}
+
+.text-container h5 {
+    font-size: 3em; /* Equivalent to 40px */
+    margin-bottom: 25px;
+}
+
+/* Paragraph styles */
+.text-container p {
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-family: "teko", sans-serif;
+    font-size: 1.25em; /* Equivalent to 20px */
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+}
+
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222846;
+}
+
+.contact-container form {
+    width: 670px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: #f9004d; /* Set contact form background color */
+}
+
+.contact-container form h1 {
+    color: #fff; /* Set text color */
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #f9004d; /* Match background color */
+    padding: 10px 0; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border-radius for better appearance */
+}
+
+.contact-container form input,
+.contact-container form textarea {
+    font-family: "teko", sans-serif;
+    font-size:15px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #f9f9f9;
+    color: #000; /* Change text color */
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-container form textarea {
+    min-height: 100px;
+    resize: vertical;
+    background: #f9f9f9; /* Set textarea background color */
+}
+
+.contact-container form textarea::placeholder {
+    color: #000; /* Change placeholder text color */
+    opacity: 0.7; /* Adjust placeholder opacity */
+    padding: 10px; /* Add padding to placeholder */
+}
+
+.contact-container form h4 {
+    color: #fff; /* Set text color */
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+    background-color: #f9004d; /* Set background color for h4 */
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center align the text */
+    border-radius: 5px; /* Add border-radius for better appearance */
+}
+
+.contact-container form #button {
+    border: 2px solid #fff; /* Add visible border */
+    background: #f9004d; /* Set button background color */
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px; /* Decrease font size */
+    color: #fff;
+    padding: 6px 12px; /* Adjust padding for smaller size */
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.contact-container form #button:hover {
+    background: #d6003f;
+}
